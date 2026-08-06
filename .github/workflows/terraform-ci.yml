@@ -3,7 +3,7 @@ name: Terraform_CI
 on:
   push:
     branches:
-      - 'feature/**'
+      - feature/terraform-pipeline
   pull_request:
     branches:
       - main
