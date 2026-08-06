@@ -1,3 +1,5 @@
+# Terraform Ignore
+
 .terraform/
 *.tfstate
 *.tfstate.*
