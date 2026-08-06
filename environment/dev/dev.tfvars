@@ -1,4 +1,4 @@
-
+# RG name
 RG = {
   RG1 = {
     name = "VNET-RG"
