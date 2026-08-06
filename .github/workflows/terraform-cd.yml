@@ -27,7 +27,7 @@ jobs:
   terraform_apply:
 
     name: Terraform Apply
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     
     environment:
       name: Production
