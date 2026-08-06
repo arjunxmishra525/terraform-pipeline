@@ -1,4 +1,4 @@
-name: Terraform_CI
+name: Terraform_CI_Pipeline
 
 on:
   push:
