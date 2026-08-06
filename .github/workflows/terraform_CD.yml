@@ -75,7 +75,7 @@ jobs:
         run: terraform apply tfplan
         if: github.event_name == 'push' &&
             github.ref == 'refs/heads/main' &&
-            github.repository == 'arjunxmishra525/Root-Child-Module'
+            github.repository == 'arjunxmishra525/terraform-pipeline'
     
 
       - name: Terraform Output
