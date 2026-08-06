@@ -24,7 +24,10 @@ jobs:
 
   validate:
     name: Terraform Validation
-    runs-on: self-hosted
+    runs-on:
+      - self-hosted
+      - Windows
+      - X64
 
     steps:
       - name: Checkout Repository
@@ -62,7 +65,12 @@ jobs:
 
   plan:
     name: Terraform Plan
-    runs-on: self-hosted
+    runs-on:
+      - self-hosted
+      - Windows
+      - X64
+    
+    
     needs: validate
 
     steps:
