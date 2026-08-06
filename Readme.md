@@ -55,4 +55,5 @@ terraform apply tfplan
 
 tState files (terraform.tfstate) are strictly managed remotely. Do not commit state files to version control.Backend: Azure Blob StorageState Locking: Enabled via Azure Storage Account leasing to prevent concurrent state corruption during CI/CD runs.
 👨‍💻 Author
-Arjun Mishra Senior DevOps Engineer
+Arjun Mishra
+Senior DevOps Engineer
