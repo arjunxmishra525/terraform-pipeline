@@ -100,6 +100,3 @@ jobs:
         with:
           name: terraform-plan
           path: environment/dev/tfplan
-        with:
-          name: terraform-plan
-          path: environment/dev/tfplan
