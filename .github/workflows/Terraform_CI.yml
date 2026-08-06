@@ -39,6 +39,12 @@ jobs:
         uses: azure/login@v2
         with:
           creds:  ${{ secrets.login }}
+
+      - name: Create Backend Config
+        run: |
+              cat <<EOF > backend.conf
+              ${{ secrets.BACKEND_CONFIG }}
+               EOF
           
       - name: Terraform Init
         run: terraform init -backend-config=backend.conf
